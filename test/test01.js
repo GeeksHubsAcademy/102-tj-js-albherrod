@@ -12,7 +12,6 @@ function numPrimo(input) {
         }
         resultado.push(input);
     }
-    console.log(resultado)
     return resultado;
 }
 function esPrimo(numero){
@@ -23,5 +22,4 @@ function esPrimo(numero){
     }
     return numero !== 1;
 }
-numPrimo(13);
 module.exports = numPrimo;

@@ -10,7 +10,9 @@ function numPrimo(input) {
                 resultado.push(j);
             }
         }
+        if(esPrimo(input)){
         resultado.push(input);
+    }
     }
     return resultado;
 }
